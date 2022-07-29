@@ -8,6 +8,14 @@
      background-color: solid black ;
 }
 
-li{
-     list-style: none;
-}
+.carousel-item::before {
+     content: "";
+     display: block;
+     position: absolute;
+     top: 0%;
+     left: 0%;
+     bottom: 0%;
+     right: 0%;
+     background: #121212;
+     opacity: 0.5;
+   }
