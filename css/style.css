@@ -17,3 +17,6 @@
      background: #121212;
      opacity: 0.5;
    }
+footer li{
+     list-style: none;
+}
